@@ -1,13 +1,16 @@
 {
-    "name": "discordjs-v14-template-ts",
+    "name": "chat gpt discord bot",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "cls && node build/index.js"
+        "start": "cls && node build/index.js",
+        "build": "tsc",
+        "dev": "nodemon",
+        "test-start": "npm run build && npm run start"
     },
     "keywords": [],
-    "author": "MericcaN41",
+    "author": "Ihsen Ben Ali",
     "license": "ISC",
     "dependencies": {
         "@discordjs/rest": "^1.1.0",
@@ -15,9 +18,13 @@
         "chalk": "^4.1.2",
         "discord.js": "14.3.0",
         "dotenv": "^16.0.2",
-        "mongoose": "^6.5.4"
+        "mongoose": "^6.5.4",
+        "nodemon": "^2.0.22",
+        "openai": "^3.2.1"
     },
     "devDependencies": {
+        "nodemo": "^1.0.0",
+        "ts-node": "^10.9.1",
         "typescript": "^4.8.2"
     },
     "overrides": {
