@@ -2,8 +2,7 @@
 
 ## Features
 
-
-Easy GPT and Discord TS implementation of personal use
+Easy GPT and Discord TS implementation for personal use and avoid the website UI and latencies.
 
 * 🟦 Typescript
 * 🔥 Slash commands (supports auto complete!)
@@ -15,7 +14,7 @@ Easy GPT and Discord TS implementation of personal use
 
 ## Installation
 
-Clone the repository then create a file named `.env` and fill it out accordingly
+* 1 - Clone the repository then create a file named `.env` and fill it out accordingly
 
 ```js
 TOKEN=YOURTOKENHERE
@@ -27,4 +26,10 @@ OPENAI_API_KEY=YOUR OPENAI API KEY
 OPEN_ORG_ID=org-YOUR OPENAI ORG ID
 ```
 
-Build the project using the typescript module and start the bot using the `npm start` command
+* 2 - Install all dependencies
+
+```npm install```
+
+* 3 - Build and Run the server :
+
+```npm run test-start```
