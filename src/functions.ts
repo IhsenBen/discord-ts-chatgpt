@@ -4,12 +4,13 @@ import GuildDB from "./schemas/Guild"
 import { GuildOption } from "./types"
 import mongoose from "mongoose";
 
-type colorType = "text" | "variable" | "error"
+type colorType = "text" | "variable" | "error"| "links"
 
 const themeColors = {
     text: "#ff8e4d",
     variable: "#ff624d",
-    error: "#f5426c"
+    error: "#f5426c",
+    links: "#7bbcde"
 }
 
 export const getThemeColor = (color: colorType) => Number(`0x${themeColors[color].substring(1)}`)
