@@ -26,6 +26,12 @@ export interface IGuild extends mongoose.Document {
     joinedAt: Date
 }
 
+export interface IPrompt extends mongoose.Document {
+    "role": string,
+    "prompt": string,
+    "createdAt": Date,
+}
+
 export type GuildOption = keyof GuildOptions
 export interface BotEvent {
     name: string,
@@ -44,6 +50,7 @@ declare global {
         }
     }
 }
+export type Prompts = Array<{act: string, prompt: string}>
 
 declare module "discord.js" {
     export interface Client {
