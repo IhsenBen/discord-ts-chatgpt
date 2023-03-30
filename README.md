@@ -23,7 +23,7 @@ PREFIX=!
 MONGO_URI=YOUR MONGO CONNECTION STRING
 MONGO_DATABASE_NAME=YOUR DATABASE NAME
 OPENAI_API_KEY=YOUR OPENAI API KEY
-OPEN_ORG_ID=org-YOUR OPENAI ORG ID
+OPEN_ORG_ID=YOUR OPENAI ORG ID
 ```
 
 * 2 - Install all dependencies
@@ -33,3 +33,9 @@ OPEN_ORG_ID=org-YOUR OPENAI ORG ID
 * 3 - Build and Run the server :
 
 ```npm run test-start```
+
+* 4 - Invite this Bot to your server through discord dev portal.
+
+* 5 - Create a channel named `chatbot` in your server.
+
+* 6 - Say Hi in the `chatbot` channel and enjoy.
